@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="container" >
+        <div id="main">
+            <div id="upper">
+                <h1>Welcom User</h1>
+            </div>
+            <form action="/api/create" method="POST">
+                <div id="field">
+                    <input type="text" placeholder="Name" name="name" autocomplete="off">
+                    <div id="divide">
+                        <input type="text" placeholder="Month" name="birthMonth" autocomplete="off">
+                        <input type="text" placeholder="Date" name="birthDate" autocomplete="off">
+                        <input type="text" placeholder="Year" name="birthYear" autocomplete="off">
+                    </div>
+                    <input type="text" placeholder="Email" name="emailId" autocomplete="off">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
